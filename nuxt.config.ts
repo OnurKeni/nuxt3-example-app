@@ -1,8 +1,10 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+// @ts-ignore
+// @ts-ignore
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
   // server side rendering mode
-  ssr: false,
+  ssr: true,
   // app
   app: {  
     head: {
@@ -24,6 +26,8 @@ export default defineNuxtConfig({
   build: {
     transpile: ["@headlessui/vue"],
   },
+
+  css: ['~/assets/scss/main.scss'],
 
   // auto import components
   components: true,

@@ -1,6 +1,7 @@
 <template>
   <div class="h-full">
     <!-- <NuxtWelcome /> -->
+      <o-header />
     <nuxt-page />
   </div>
 </template>
@@ -11,3 +12,6 @@ body,
   height: 100%;
 }
 </style>
+<script setup lang="ts">
+import OHeader from "~/components/o-header.vue";
+</script>

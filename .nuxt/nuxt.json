@@ -1,9 +1,9 @@
 {
-  "_hash": "EMegyui6xL",
+  "_hash": "qXbH2HxIFc",
   "project": {
-    "rootDir": "D:/Code/Project/nuxt3-example-app"
+    "rootDir": "/Users/onurkeni/Desktop/Project/Framework Example/nuxt3-example-app"
   },
   "versions": {
-    "nuxt": "3.2.0"
+    "nuxt": "3.6.1"
   }
 }

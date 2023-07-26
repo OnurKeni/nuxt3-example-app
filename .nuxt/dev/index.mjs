@@ -125,7 +125,7 @@ const _inlineRuntimeConfig = {
     }
   },
   "public": {
-    "API_BASE_URL": "https://fakestoreapi.com"
+    "API_BASE_URL": "https://64bf0d5d5ee688b6250d1ba1.mockapi.io/onurkenny"
   }
 };
 const ENV_PREFIX = "NITRO_";

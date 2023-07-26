@@ -2,6 +2,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'Banner': typeof import("../components/banner.vue")['default']
+    'Categories': typeof import("../components/categories.vue")['default']
     'List': typeof import("../components/list.vue")['default']
     'OHeader': typeof import("../components/o-header.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -23,6 +24,7 @@ declare module 'vue' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyBanner': typeof import("../components/banner.vue")['default']
+    'LazyCategories': typeof import("../components/categories.vue")['default']
     'LazyList': typeof import("../components/list.vue")['default']
     'LazyOHeader': typeof import("../components/o-header.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -47,6 +49,7 @@ declare module 'vue' {
 }
 
 export const Banner: typeof import("../components/banner.vue")['default']
+export const Categories: typeof import("../components/categories.vue")['default']
 export const List: typeof import("../components/list.vue")['default']
 export const OHeader: typeof import("../components/o-header.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
@@ -68,6 +71,7 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyBanner: typeof import("../components/banner.vue")['default']
+export const LazyCategories: typeof import("../components/categories.vue")['default']
 export const LazyList: typeof import("../components/list.vue")['default']
 export const LazyOHeader: typeof import("../components/o-header.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']

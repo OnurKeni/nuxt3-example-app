@@ -11,14 +11,14 @@ export default defineNuxtConfig({
       title: "Nuxt 3 Example",
       titleTemplate: "%s - Nuxt 3 Example",
       meta: [
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        {name: "viewport", content: "width=device-width, initial-scale=1"},
         {
           hid: "description",
           name: "description",
           content: "Nuxt 3 Example",
         },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
     },
   },
 
@@ -34,7 +34,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      API_BASE_URL: "https://fakestoreapi.com",
+      API_BASE_URL: "https://64bf0d5d5ee688b6250d1ba1.mockapi.io/onurkenny",
     },
   },
 });

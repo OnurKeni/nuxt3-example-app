@@ -31,6 +31,12 @@ module.exports = {
             },
             light: {
                 base: '#F4F5F7',
+            },
+            red: {
+                base: '#E97171',
+            },
+            green: {
+                base: '#2EC1AC',
             }
         },
         extend: {
@@ -42,6 +48,7 @@ module.exports = {
             },
             spacing: {
                 '22': '88px',
+                '17': '68px'
             }
         },
     },

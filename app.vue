@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full">
+  <div class="h-full pt-17">
     <!-- <NuxtWelcome /> -->
       <o-header />
     <nuxt-page />

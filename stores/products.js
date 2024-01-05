@@ -3,21 +3,8 @@ import { defineStore } from "pinia";
 export const useProducts = defineStore("products", {
   state: () => {
     return {
-      // [
-      //   {
-      //       id:1,
-      //       title:'...',
-      //       price:'...',
-      //       category:'...',
-      //       description:'...',
-      //       image:'...'
-      //   },
-      //  /*...*/
-      // ]
       products: [],
-      // ["electronics","jewelery","men's clothing","women's clothing"]
       categories: [],
-      // sort: "asc"
     };
   },
   actions: {

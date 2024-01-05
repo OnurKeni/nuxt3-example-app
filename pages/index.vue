@@ -15,9 +15,5 @@ await productsStore.getProducts();
 await productsStore.getCategories();
 const products = [...productsStore.products];
 const categories = [...productsStore.categories];
-console.log('onr categories', categories);
 
-
-// State
-// const currentCategory = ref("all");
 </script>

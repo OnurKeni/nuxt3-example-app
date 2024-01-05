@@ -16,6 +16,7 @@
     "tailwindcss": "^3.2.6"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "pinia": "^2.0.30",
     "sass": "^1.64.1"
   }

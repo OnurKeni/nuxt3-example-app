@@ -1,10 +1,8 @@
 <template>
-    <section class="bg-white h-full">
-        <div class="container mx-auto">
-            Shop Page Work!
-        </div>
-    </section>
+  <section class="bg-[#00091B] text-white h-full">
+    <coming-soon/>
+  </section>
 </template>
 <script setup>
-
+import ComingSoon from "~/components/coming-soon.vue";
 </script>

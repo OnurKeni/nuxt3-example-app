@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white h-full">
+    <section class="bg-white">
         <banner/>
         <div class="container mx-auto">
           <lazy-categories class="pt-14 pb-7" v-if="categories && categories.length"  :categories="categories"/>

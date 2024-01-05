@@ -1,8 +1,9 @@
 <template>
-    <div class="py-10 font-poppins">
+    <div id="our-products" class="py-10 font-poppins">
         <h2 class="text-4xl text-center text-dark-base font-bold mb-8">Our Products</h2>
         <div class="grid grid-cols-12 gap-3 sm:gap-8 px-3 px-sm-0">
             <div
+
                 v-for="(product, i) in products.slice(0,limit)"
                 :key="`${product}${i}`"
                 class="card relative flex flex-col group col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 text-primary-base rounded-lg overflow-hidden "
@@ -31,16 +32,16 @@
                 </div>
                 <div
                     class="flex flex-col justify-center items-center hover:cursor-pointer opacity-0 group-hover:opacity-100 duration-300 ease-in-out transition absolute inset-0 bottom-0 font-semibold before:absolute before:inset-0 before:z-0 before:bg-dark-base before:opacity-70">
-                    <span class="relative text-white tracking-wider text-2xl">
+                    <span class="relative text-white text-center pb-2 tracking-wider text-2xl">
                         {{ product.name }}
                     </span>
                     <div class=" relative pt-4 text-center">
-                        <button
+                        <nuxt-link
                             :id="`add-to-card-btn-${i}`"
                             class="text-primary-base bg-white font-semibold py-3 px-8 hover:text-white hover:bg-primary-base"
-                            type="button">
+                            :to="`/shop`">
                             Add To Cart
-                        </button>
+                        </nuxt-link>
                     </div>
                 </div>
             </div>
@@ -67,6 +68,7 @@ defineProps({
         default: null,
     },
 });
+
 const limit = ref(8);
 
 function getDiscountPrice(price, discount) {

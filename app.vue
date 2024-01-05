@@ -1,8 +1,8 @@
 <template>
   <div class="h-full pt-17">
-    <!-- <NuxtWelcome /> -->
       <o-header />
-    <nuxt-page />
+      <nuxt-page />
+      <o-footer />
   </div>
 </template>
 <style>
@@ -14,4 +14,5 @@ body,
 </style>
 <script setup lang="ts">
 import OHeader from "~/components/o-header.vue";
+import OFooter from "~/components/o-footer.vue";
 </script>

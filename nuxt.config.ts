@@ -21,13 +21,12 @@ export default defineNuxtConfig({
       link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}],
     },
   },
-
   // build
   build: {
     transpile: ["@headlessui/vue"],
   },
 
-  css: ['~/assets/scss/main.scss'],
+  css: ['~/assets/scss/main.scss','animate.css/animate.min.css'],
 
   // auto import components
   components: true,

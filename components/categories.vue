@@ -6,7 +6,7 @@
     </div>
     <div v-for="(category, i) in categories.slice(0,limit)"
            :key="`${category}${i}`"
-           class="card hover:cursor-pointer relative group col-span-12 sm:col-span-6 md:col-span-4">
+           class="card hover:cursor-pointer relative group col-span-12 sm:col-span-6 md:col-span-4  animate__animated animate__fadeIn">
        <div class="relative overflow-hidden rounded-lg">
            <img :src="category.image" alt="" class="w-full h-[480px] object-cover  transition duration-300 ease-in-out hover:scale-110">
        </div>

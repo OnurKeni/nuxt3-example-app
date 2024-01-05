@@ -47,4 +47,11 @@ Build the application for production:
 yarn build or npm run build
 ```
 
+### Home Page
+
+  <div>
+      <img src="public/img/homepage-sc.png" alt="Home Page" width="400">
+  </div>
+ 
+
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
